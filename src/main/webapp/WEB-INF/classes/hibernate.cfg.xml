@@ -12,16 +12,16 @@
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->
         <!-- 配置C3P0连接池参数 -->
-        <property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
-        <property name="hibernate.c3p0.max_size">10</property>
-        <property name="hibernate.c3p0.min_size">5</property>
-        <property name="hibernate.c3p0.timeout">5000</property>
-        <property name="hibernate.c3p0.max_statements">10</property>
+        <!--<property name="hibernate.connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>-->
+        <!--<property name="hibernate.c3p0.max_size">10</property>-->
+        <!--<property name="hibernate.c3p0.min_size">5</property>-->
+        <!--<property name="hibernate.c3p0.timeout">5000</property>-->
+        <!--<property name="hibernate.c3p0.max_statements">10</property>-->
 
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.format_sql">true</property>
 
 
-        <mapping resource="com/dylan/entity/Account.hbm.xml"/>
+        <mapping resource="platform/model/users/entity/userentity.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>
