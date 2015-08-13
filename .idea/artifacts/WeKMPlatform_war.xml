@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="WeKMPlatform:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="WeKMPlatform.war">
+      <element id="artifact" artifact-name="WeKMPlatform:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.12-bin" />
+          <element id="library" level="project" name="junit-4.5" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
